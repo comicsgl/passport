@@ -1,0 +1,29 @@
+{
+	"name": "passport-comicsgl",
+	"version": "0.0.1",
+	"description": "OAuth2 client authentication for ComicsGL using passport.js",
+	"keywords": ["comicsgl", "passport", "oauth2", "auth", "authentication", "identity", "api", "json"],
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://comicsgl.com",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/comicsgl/passport.git"
+	},
+	"bugs": {
+		"url": "http://github.com/comicsgl/passport/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"pkginfo": "0.2.x",
+		"passport-oauth": "0.1.*"
+	}
+}
